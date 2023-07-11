@@ -7,10 +7,9 @@
 /* Header part design */
 .banner-part {
     padding: 1045px, 50px, 0px, 240px;
-    flex-shrink: 0px;
     align-items: center;
-    justify-content: space-around;
     display: flex;
+    justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -20,7 +19,6 @@
 }
 
 .intro-text {
-
     color: #272727;
     font-family: Lato;
     font-size: 80px;
@@ -32,14 +30,10 @@
 .description-text {
     display: flex;
     width: 634px;
-    flex-direction: column;
-    flex-shrink: 0;
     align-items: center;
-
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
-
     font-weight: 400;
     line-height: 30px;
 }
@@ -59,7 +53,6 @@
     align-items: center;
     width: 635px;
     height: 800px;
-    flex-shrink: 0;
     padding: 50px, 0px;
 
 
@@ -78,9 +71,7 @@
     color: #272727;
     font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 .feature-text {
@@ -132,7 +123,6 @@
     background: rgba(71, 125, 17, 0.15);
     width: 314px;
     height: 471px;
-    flex-shrink: 0;
 }
 
 /* facility part styles */
@@ -188,7 +178,6 @@
     text-align: center;
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
@@ -298,7 +287,5 @@ footer span {
 footer h3 {
     font-family: Lato;
     font-size: 48px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
