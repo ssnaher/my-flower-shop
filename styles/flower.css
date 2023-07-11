@@ -44,20 +44,15 @@
     line-height: 30px;
 }
 
-.primary-btn,
-text {
+.primary-btn {
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    display: inline-flex;
     padding: 20px 43px;
-    /* align-items: flex-start; */
-    gap: 10px;
     border-radius: 8px;
-    background: #E55473;
+    background: #df6a83;
+    border-color: #df6a83;
 }
 
 .banner-img img {
@@ -76,9 +71,6 @@ text {
     justify-content: center;
 } */
 
-.feature-text {
-    text-align: center;
-}
 
 .feature-line {
     margin-top: 250px;
@@ -91,20 +83,17 @@ text {
     line-height: normal;
 }
 
-.feature-text,
-p {
+.feature-text {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     /* padding-bottom: 48px; */
 }
 
 .feature-images {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +101,6 @@ p {
     text-align: center;
     font-family: Lato;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
@@ -123,7 +111,6 @@ p {
     padding-bottom: 0px;
     width: 310px;
     height: 428px;
-    flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
@@ -154,23 +141,17 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    text-align: center;
-    /* margin-top: 150px; */
-    margin: 150px 240px 150px 240px;
     padding-top: 85px;
-    width: 1440px;
     height: 320px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    margin: 120px auto;
 }
 
 .facility {
-    text-align: center;
-    justify-content: space-evenly;
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-family: Lato;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -213,19 +194,14 @@ p {
 }
 
 .deal-content button {
-    display: inline-flex;
     padding: 20px 43px;
-    align-items: flex-start;
-    gap: 10px;
     border-radius: 8px;
-    background: #E55473;
-
+    background: #df6a83;
+    border-color: #df6a83;
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 /* instagram part styles */
@@ -268,6 +244,7 @@ p {
     border-radius: 8px;
     background: #FFF;
     border-color: white;
+    margin-right: 15px;
 }
 
 .Contact-part button {
@@ -275,8 +252,9 @@ p {
     height: 64px;
     color: white;
     border-radius: 8px;
-    background: #E55473;
+    background: #df6a83;
     border-color: #E55473;
+    font-size: 20px;
 }
 
 /* review section design */
@@ -318,7 +296,6 @@ footer span {
 }
 
 footer h3 {
-
     font-family: Lato;
     font-size: 48px;
     font-style: normal;
