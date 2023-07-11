@@ -194,6 +194,9 @@
 }
 
 /* instagram part styles */
+.insta-part{
+    text-align: center;
+}
 .insta-text h3 {
     color: #272727;
     text-align: center;
